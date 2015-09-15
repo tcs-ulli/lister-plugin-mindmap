@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <Units Count="28">
+      <Unit0>
+        <Filename Value="mindmap.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos X="11" Y="30"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../oofile/wlxplugin.pas"/>
+        <UnitName Value="WLXPlugin"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="71" Y="91"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../DWGPreview/dwgThumbnail.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="12"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../DWGPreview/listplug.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16"/>
+        <UsageCount Value="13"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../DWGPreview/uMain.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="134"/>
+        <CursorPos X="43" Y="80"/>
+        <UsageCount Value="13"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../../fpc/trunk/rtl/wince/messages.pp"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../FileThumbnails/FileDesc/ContPlug.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../FileThumbnails/FileDesc/DEPHeader.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="20"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../redhtml/Src/HttpAsyncId10.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../redhtml/Src/HtmlThreads.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="66"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../TorrentLister/TorrentFile.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="353"/>
+        <UsageCount Value="13"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../TorrentLister/install/readme.txt"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="43" Y="14"/>
+        <UsageCount Value="13"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../oofile/calling.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="3"/>
+        <UsageCount Value="12"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../TorrentLister/listU.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19" Y="238"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../components/prichedit/oodocument.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="31" Y="15"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../components/prichedit/fprichdocument.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../components/prichedit/richdocument.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="3" Y="54"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../components/OpenRichedit/oodocument.pas"/>
+        <UnitName Value="oodocument"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <UnitName Value="richdocument"/>
+        <EditorIndex Value="4"/>
+        <CursorPos Y="113"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="619"/>
+        <CursorPos X="14" Y="652"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../msoffice/msoffice.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="52" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/paszlib/src/zipper.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="412"/>
+        <CursorPos X="15" Y="430"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-xml/src/dom.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="490"/>
+        <CursorPos X="3" Y="509"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/packages/fcl-xml/src/xmlread.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3919"/>
+        <CursorPos X="11" Y="3848"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../base/dbintfs/uwlxmodule.pas"/>
+        <UnitName Value="uWlxModule"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="457"/>
+        <CursorPos Y="465"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../plugintester/umain.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="umain"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="22"/>
+        <CursorPos X="48" Y="62"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../../../../../../Programme/lazarus140/fpc/2.6.4/source/rtl/morphos/graphics.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2180"/>
+        <CursorPos X="40" Y="2199"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../components/fpspreadsheet/fpolestorage.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+    </Units>
+    <JumpHistory Count="23" HistoryIndex="22">
+      <Position1>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="77" TopLine="63"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="78" TopLine="63"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="79" TopLine="63"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="80" TopLine="63"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="81" TopLine="63"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="82" TopLine="63"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="83" TopLine="63"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="85" TopLine="63"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="86" TopLine="63"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="87" TopLine="63"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="110" TopLine="87"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="83" TopLine="68"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="85" TopLine="68"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="86" TopLine="68"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="87" TopLine="68"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="110" TopLine="87"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../../components/OpenRichedit/richdocument.pas"/>
+        <Caret Line="113" TopLine="86"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="8" Column="10"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="52" Column="9" TopLine="24"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="7" Column="33"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="8" Column="3"/>
+      </Position21>
+      <Position22>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="18"/>
+      </Position22>
+      <Position23>
+        <Filename Value="mindmap.lpr"/>
+        <Caret Line="20" Column="16" TopLine="11"/>
+      </Position23>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="FFilename"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Self"/>
+      </Item2>
+    </Watches>
+  </Debugging>
+</CONFIG>
