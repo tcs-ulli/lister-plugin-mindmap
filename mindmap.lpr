@@ -16,21 +16,25 @@ function ListGetText(FileToLoad:pchar;contentbuf:pchar;contentbuflen:integer):pc
 var
   aFile: string;
 begin
-  aFile := FileToLoad;
-  Result := '';
-  case lowercase(ExtractFileExt(FileToLoad)) of
-   '.mmap':
-     begin
+  try
+    aFile := FileToLoad;
+    Result := '';
+    case lowercase(ExtractFileExt(FileToLoad)) of
+     '.mmap':
+       begin
 
-     end;
-   '.mm': //Freemind
-     begin
+       end;
+     '.mm': //Freemind
+       begin
 
-     end;
-   '.xmind':
-     begin
+       end;
+     '.xmind':
+       begin
 
-     end;
+       end;
+    end;
+  except
+    Result := '';
   end;
 end;
 
@@ -41,45 +45,49 @@ var
   FilePath: string;
   FileList: TStringList;
 begin
-  FilePath := OutputPath;
-  UnZip := TUnZipper.Create;
-  FileList := TStringList.Create;
-  Result := '';
-  case lowercase(ExtractFileExt(FileToLoad)) of
-   '.mmap':
-     begin
-       try
+  try
+    FilePath := OutputPath;
+    UnZip := TUnZipper.Create;
+    FileList := TStringList.Create;
+    Result := '';
+    case lowercase(ExtractFileExt(FileToLoad)) of
+     '.mmap':
+       begin
          try
-           FileList.Add('Preview.png');
-           UnZip.OutputPath := FilePath;
-           Unzip.UnZipFiles(FileToLoad,FileList);
-         finally
-           FreeAndNil(FileList);
-           FreeAndNil(UnZip);
-         end; //try
-         Result := PChar(OutputPath+'Preview.png');
-       except
+           try
+             FileList.Add('Preview.png');
+             UnZip.OutputPath := FilePath;
+             Unzip.UnZipFiles(FileToLoad,FileList);
+           finally
+             FreeAndNil(FileList);
+             FreeAndNil(UnZip);
+           end; //try
+           Result := PChar(OutputPath+'Preview.png');
+         except
+         end;
        end;
-     end;
-   '.xmind':
-     begin
-       try
+     '.xmind':
+       begin
          try
-           FileList.Add('Thumbnails/thumbnail.png');
-           UnZip.OutputPath := FilePath;
-           Unzip.UnZipFiles(FileToLoad,FileList);
-         finally
-           FreeAndNil(FileList);
-           FreeAndNil(UnZip);
-         end; //try
-         Result := PChar(OutputPath+'Thumbnails'+DirectorySeparator+'thumbnail.png');
-       except
+           try
+             FileList.Add('Thumbnails/thumbnail.png');
+             UnZip.OutputPath := FilePath;
+             Unzip.UnZipFiles(FileToLoad,FileList);
+           finally
+             FreeAndNil(FileList);
+             FreeAndNil(UnZip);
+           end; //try
+           Result := PChar(OutputPath+'Thumbnails'+DirectorySeparator+'thumbnail.png');
+         except
+         end;
        end;
-     end;
-  end;
+    end;
 
-  UnZip.Free;
-  FileList.Free;
+    UnZip.Free;
+    FileList.Free;
+  except
+    Result := '';
+  end;
 end;
 
 exports
